@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - MVVMCore (0.0.1):
+    - Alamofire (~> 4.8.0)
+    - RxCocoa (~> 5.1.0)
+    - RxSwift (~> 5.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - Kingfisher (~> 5.13.0)
+  - MVVMCore (from `./MVVMCore`)
+  - RxCocoa (~> 5.1.0)
+  - RxSwift (~> 5.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  MVVMCore:
+    :path: "./MVVMCore"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  MVVMCore: 2c5a01a02dd13a786e1957d9b19fd85a0c134c88
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 437643c87ce65c9ce9dceb7ee2488121a67bd710
+
+COCOAPODS: 1.9.1
